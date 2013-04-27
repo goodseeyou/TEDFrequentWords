@@ -79,15 +79,13 @@ display:none;
 height:90%;
 overflow:auto;
 }
-
 </style>
 <body>
 <div class="test"></div>
-<div style="display:inline-block;"><a href="http://www.ted.com" target="_blank"><img src="http://assets.tedcdn.com/images/ted_logo.gif"></img></a></div>
-<div style="display:inline-block;margin-left:10px;width:300px;margin-bottom:10px;"><div class="note"><li>Find TED film from above</li><li>Paste film url link you love, </li><li>Enjoy the frequent words!</li></div></div>
-<form method="post" target="./" >
+<a href="http://www.ted.com" target="_blank"><img src="http://assets.tedcdn.com/images/ted_logo.gif"></img></a><br/>
+<form method="post" target="./">
 <input name="link" id="link" type="text" size="100" value="<?php echo $_POST['link']; ?>">
-<input type="submit" value="submit"><div class="note">Parsing might cost you 5 seconds</div>
+<input type="submit" value="submit"><div class="note">This might cost you 5 seconds</div>
 </form>
 <div id="loading"><img src="loading.gif"></img></div>
 <div id="js_response"></div>
