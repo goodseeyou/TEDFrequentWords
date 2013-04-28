@@ -6,8 +6,13 @@ if(!empty($_POST['link'])){?>
 ?>
 <html>
 <head>
+<meta name="keywords" content="TED,學英文,單字,常出現,learn,english,frequent,word,vocabulary"/>
+<meta name="description" content="看TED學英文，找出TED影片最常出現的單字。Learning English by watching TED film, offer you most frequent words in TED."/>
+<meta name="author" content="林宏哲,Hong-Che Lin,Paul Lin"/>
+<meta name="copyright" content="CC"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="URL" content="http://www.cs.nccu.edu.tw/~s9513/ted"/>
 <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-40359712-1']);
   _gaq.push(['_trackPageview']);
